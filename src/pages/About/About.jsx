@@ -1,6 +1,8 @@
-export function About(){
+import './About.css';
+
+export default function About(){
     return (
-        <div>
+        <div className="Test">
             <span>About Page</span>
             <br/>
             <span>氏名: いぬがみ　ころね</span>
