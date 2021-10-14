@@ -1,7 +1,6 @@
 import "./App.css"
 import { Home, Contact, About, Profile } from "./pages"
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom"
-import { PrimaryButton } from "@fluentui/react/lib/Button"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Navbar from "./component/Navbar"
 
 function App() {
